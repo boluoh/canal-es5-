@@ -51,6 +51,12 @@ canal 1.1.x 版本（[release_note](https://github.com/alibaba/canal/releases)�
 - 原生支持aliyun rds的binlog订阅 (解决自动主备切换/oss binlog离线解析) 参考: [Aliyun RDS QuickStart](https://github.com/alibaba/canal/wiki/aliyun-RDS-QuickStart)
 - 原生支持docker镜像 #801 参考: [Docker QuickStart](https://github.com/alibaba/canal/wiki/Docker-QuickStart)
 
+---
+
+## *补充说明*
+
+此版本是在canal1.1.4基础上进行修改把es6改为es5适配
+
 ## 文档
 
 - [Home](https://github.com/alibaba/canal/wiki/Home)
@@ -75,7 +81,7 @@ canal 1.1.x 版本（[release_note](https://github.com/alibaba/canal/releases)�
 ## 多语言
 
 canal 特别设计了 client-server 模式，交互协议使用 protobuf 3.0 , client 端可采用不同语言实现不同的消费逻辑，欢迎大家提交 pull request 
-  
+
 - canal java 客户端: [https://github.com/alibaba/canal/wiki/ClientExample](https://github.com/alibaba/canal/wiki/ClientExample)
 - canal c# 客户端: [https://github.com/dotnetcore/CanalSharp](https://github.com/dotnetcore/CanalSharp)
 - canal go客户端: [https://github.com/CanalClient/canal-go](https://github.com/CanalClient/canal-go)
